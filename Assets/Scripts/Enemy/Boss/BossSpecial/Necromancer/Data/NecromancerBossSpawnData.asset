@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f27348d0903ffc43b6940f3a4ae8ee8, type: 3}
+  m_Name: NecromancerBossSpawnData
+  m_EditorClassIdentifier: 
+  spawnGO: {fileID: 3896702426246697060, guid: f29682fb814720e4e91f12b917d6405b, type: 3}
+  enemy:
+  - {fileID: 3984914781984620567, guid: aaf00311f8fb87540a473ba909d66918, type: 3}
+  - {fileID: 3267786529697211539, guid: c9b05301e46618049a42f1eb0a6a50b2, type: 3}
+  - {fileID: 871827058776280841, guid: d402a567d8318b64589d0ddedeb4db92, type: 3}
+  - {fileID: 8464408799644998372, guid: f42e898dd034481458453f605b9fcf17, type: 3}
+  damage: 0
+  point: {x: 0, y: -2}
+  cooldownTimer: 8

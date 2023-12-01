@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dea54e08a688e443a0a6d06452d2ed8, type: 3}
+  m_Name: BaseData
+  m_EditorClassIdentifier: 
+  movementSpeed: 5
+  radius: 0.26
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 576
+  jumpForce: 12
+  amountOfJump: 2
+  jumpCooldown: 0.5
+  coyoteJumpTime: 0.5
+  attackSize: {x: 3.7, y: 1}
+  whatIsEnemy:
+    serializedVersion: 2
+    m_Bits: 128
+  resetAttackTime: 1.5
+  attackRadius: 1.38
+  attackDamage: 46
+  dashSpeed: 14
+  dashTime: 0.5
+  cooldownDash: 3
+  heavyAttackRadius: 7.71
+  heavyAttackDamage: 64
+  cooldownHeavyAttack: 8
+  goEffect: {fileID: 4755351799097740506, guid: 444941ee8167d834ea43501a55300cac, type: 3}
+  maxHealth: 1807
+  defense: 35
+  knockBackSpeed: {x: 1, y: 2}
+  overDeadTime: 1.5
+  jumpAttackSize: {x: 3.4, y: 0.89}
+  jumpAttackRad: 1.24
+  waterBlastSpeed: 6
+  waterBlastdamage: 73
+  waterBlastOverTimeLife: 3
+  cooldownWaterBlast: 15
+  waterGo: {fileID: 6086956078629357248, guid: 85a7cf023920a8a45a6f50dc25d1e2a0, type: 3}
+  windGo: {fileID: 1476538201462306676, guid: 80cfd3e53a4cd7249951c085d5ce1653, type: 3}
+  windSkillDamage: 69
+  cooldownWind: 10
+  checkSize: {x: 25.9, y: 12.2}
+  audioClips:
+  - {fileID: 8300000, guid: 43e32719e7d2e4a4bafc1f2ce8ff7562, type: 3}
+  - {fileID: 8300000, guid: 8503d9ca613aaf14a93539a3fb27a6de, type: 3}
+  - {fileID: 8300000, guid: e51aecb86d81dc64f9dc5d2187ef3ff2, type: 3}
+  - {fileID: 8300000, guid: bdc4eaa223e605f4aa51a8d174f9e22e, type: 3}
+  - {fileID: 8300000, guid: 2c2338600a755d446896a169f33800d9, type: 3}
+  - {fileID: 8300000, guid: abed36cc3d71ae841ae7a1a31aba4af3, type: 3}
+  - {fileID: 8300000, guid: 420340260284fa74f8fd5152a741c660, type: 3}
+  - {fileID: 8300000, guid: fb148909ec51eb8448d9aaba8d579694, type: 3}
