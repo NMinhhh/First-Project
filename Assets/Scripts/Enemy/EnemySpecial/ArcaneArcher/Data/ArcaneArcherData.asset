@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   groundDistance: 0.8
   wallDistance: 0.8
-  randomMaxHealth: {x: 2000, y: 25000}
+  randomMaxHealth: {x: 2000, y: 2500}
   closeRangePlayer: {x: 9, y: 0.5}
   longRangePlayer: {x: 0, y: 0}
   playerDetected: {x: 15, y: 1.8}

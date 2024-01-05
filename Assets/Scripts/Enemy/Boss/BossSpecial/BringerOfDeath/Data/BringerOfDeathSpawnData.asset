@@ -17,6 +17,6 @@ MonoBehaviour:
   - {fileID: 6880156499469874109, guid: bde989cf1884eff4e86dc37058d78769, type: 3}
   - {fileID: 7186697758518489295, guid: 9e8a20cea22dac0429d0643544b8784e, type: 3}
   - {fileID: 3944992633240421640, guid: 00957b062aa1a524582365495b5f4eb9, type: 3}
-  damage: 150
+  damage: 400
   point: {x: 0, y: 2.16}
-  cooldownTimer: 10
+  cooldownTimer: 11
